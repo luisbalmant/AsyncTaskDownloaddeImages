@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         Bitmap myImage;
 
         try {
-            myImage = task.execute("https://www.emotioncard.com.br/wp-content/uploads/2017/07/6217ca093721676961303611047e0670-yorkshire-terrier-puppies-yorkshire-dog.jpg").get();
+            myImage = task.execute("https://scontent-lht6-1.cdninstagram.com/t51.2885-15/e35/21296170_307206409744040_3222849540868538368_n.jpg").get();
 
             imageView.setImageBitmap(myImage);
 
